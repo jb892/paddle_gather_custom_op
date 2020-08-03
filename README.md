@@ -47,7 +47,7 @@ cd src
 sh make.sh
 ```
 
-最终编译会产出`pointnet_lib.so`
+最终编译会产出`custom_lib.so`
 
 **说明：** 若使用源码编译安装PaddlePaddle的方式，编译过程中`cmake`未设置`WITH_MKLDNN`的方式，
 编译自定义OP时会报错找不到`mkldnn.h`等文件，可在`make.sh`中删除编译命令中的`-DPADDLE_WITH_MKLDNN`选项。
